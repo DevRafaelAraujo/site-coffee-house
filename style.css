@@ -1,3 +1,36 @@
-body {
-    background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Topo */
+.secao-topo {
+    width: 100%;
+    background: #604829;
+    z-index: 1;
+    position: fixed;
+}
+
+.secao-topo img {
+    height: 100px;
+    position: relative;
+    left: 15%;
+}
+
+.secao-topo .links {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+}
+
+.links a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #c4a47c;
+    font-family: 'oswald', sans-serif;
+    font-size: 18px;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    padding: 10px;
 }
